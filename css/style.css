@@ -27,9 +27,15 @@
   margin-top: 4px;
 }
 
+/* definisao f t in*/
 #navbarSupportedContent ul {
   padding: 0;
   margin: 0;
+}
+
+#navbarSupportedContent ul li {
+  height: 65px;
+  line-height: 3;
 }
 
 .dropdown-menu {
@@ -207,7 +213,8 @@
   justify-content: center;
   align-items: left;
   text-align: left;
-  width: 65%;
+  padding-top: 25vh;
+  /* width: 65%; */
 }
 
 .slide-content span {
@@ -221,6 +228,21 @@
   padding: 0;
   margin: 0 0 20px 85px;
   line-height: 1.2;
+}
+
+@media (max-width: 991px) {
+  .slide-content span {
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Source Sans Pro",Arial,sans-serif;
+    color: #fff;
+    text-shadow: 1px 1px 1px #444;
+    padding: 0;
+    margin: 0 0 20px 85px;
+    line-height: 1.2;
+  }
 }
 
 
